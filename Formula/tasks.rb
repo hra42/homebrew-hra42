@@ -10,7 +10,7 @@ class Tasks < Formula
 
   on_macos do
     url "https://github.com/hra42/goprojects-todo-list/releases/download/v0.0.1/goprojects-todo-list_Darwin_all.tar.gz"
-    sha256 "77b1cab60db5298cf88007a8f5f8ae8d40fe655c420fc27892e8961e568236fd"
+    sha256 "8118103cc41dc54f75b7ca75156248850145f6b14325079cee682c88745817e0"
 
     def install
       bin.install "goprojects-todo-list_0.0.1"
@@ -21,7 +21,7 @@ class Tasks < Formula
     on_intel do
       if Hardware::CPU.is_64_bit?
         url "https://github.com/hra42/goprojects-todo-list/releases/download/v0.0.1/goprojects-todo-list_Linux_x86_64.tar.gz"
-        sha256 "aa46653a8a2a19958b39c027ca5ca0ffb3905067a7d8e80bd5ec66ac8de5e370"
+        sha256 "4b23dcc00fd50beb9da39bf097cb948d656b85ade9c27660e3f2a5cdadeab629"
 
         def install
           bin.install "tasks"
@@ -31,7 +31,7 @@ class Tasks < Formula
     on_arm do
       if !Hardware::CPU.is_64_bit?
         url "https://github.com/hra42/goprojects-todo-list/releases/download/v0.0.1/goprojects-todo-list_Linux_armv6.tar.gz"
-        sha256 "d93be5d5913d5f8d8e5d33c8ac38b92a1977725c06ac4fe082a5ad41381d4421"
+        sha256 "9b70378041fa8192a3998ba22a541885e5b683cc03d9a9b74cced4ccd8a8a27a"
 
         def install
           bin.install "tasks"
@@ -41,7 +41,7 @@ class Tasks < Formula
     on_arm do
       if Hardware::CPU.is_64_bit?
         url "https://github.com/hra42/goprojects-todo-list/releases/download/v0.0.1/goprojects-todo-list_Linux_arm64.tar.gz"
-        sha256 "2783678260b3a38844400ae6cbb9ea4640443dd598628e0c3720e2f886e2aa1b"
+        sha256 "50547b3a153e341ffe874a90a1bac94d309be559ccbe761381816a068267a696"
 
         def install
           bin.install "tasks"
